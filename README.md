@@ -1,3 +1,5 @@
+[![CI](https://github.com/Ungerm23/WebTech-CreateInvoiceFrontend/actions/workflows/ci.yml/badge.svg)](https://github.com/Ungerm23/WebTech-CreateInvoiceFrontend/actions/workflows/ci.yml)
+
 # create-invoice-frontend
 
 ## Project setup
