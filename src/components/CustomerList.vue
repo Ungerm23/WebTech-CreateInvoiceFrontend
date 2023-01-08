@@ -59,8 +59,6 @@
 
 <script setup>
 import {ref} from 'vue'
-
-
   const selected = ref()
   const data = ref(null)
   const error = ref(null)
