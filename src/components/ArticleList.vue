@@ -1,7 +1,7 @@
 <template>
   <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown button
+      Artikel auswählen
     </button>
     <ul class="dropdown-menu">
       <li><a  v-for="Article in data" :key="Article.id" class="dropdown-item"
@@ -17,6 +17,8 @@
       {{ Article.price }}
     </p>
   </div>
+
+  <div> <button class="btn btn-primary m-2" type="button">Artikel hinzufügen</button></div>
 
 </template>
 
