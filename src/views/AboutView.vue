@@ -2,8 +2,10 @@
   <div class="about">
     <h1>This is an about page</h1>
   </div>
-  <UserInput></UserInput>
   <CustomerList></CustomerList>
+  <p></p>
+  <UserInput></UserInput>
+  <p></p>
   <ArticleList></ArticleList>
 </template>
 

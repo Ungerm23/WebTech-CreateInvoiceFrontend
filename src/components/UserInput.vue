@@ -1,11 +1,52 @@
 <template>
-  <div
+  <form class="row g-3 needs validation" >
+    <div class="col-md-4">
+      <label for="validationServer01" class="form-label">Vorname</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" v-model="FirstName" required>
+      <div class="valid-feedback">
+        Das passt!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationServer02" class="form-label">Nachname</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" v-model="LastName" required>
+      <div class="valid-feedback">
+        Das passt!
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationServer03" class="form-label">Adresse</label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" v-model="Address" required
+             placeholder="Straße + Hausnr.">
+      <div id="validationServer03Feedback" class="invalid-feedback">
+        Das passt!
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationServer05" class="form-label">Bundesland</label>
+      <input type="text" class="form-control is-invalid" id="validationServer04" v-model="State" required>
+      <div class="valid-feedback">
+        Das passt!
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationServer05" class="form-label">Geburtstag</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" v-model="Birthday"
+             placeholder="Format: JJJJ-MM-TT">
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
+
+<!--  <div
     class="input-group mb-3">
     <input
       class="InputFirstName"
       v-model="FirstName"
       placeholder="Vorname"
-      @input="event => text = event.target.value">
+      @input="event => text = event.target.value"
+      >
     <p>{{FirstName}}</p>
   </div>
 
@@ -44,7 +85,7 @@
       placeholder="Geburtstag (JJJJ-MM-TT)"
       @input="event => text = event.target.value">
     <p>{{Birthday}}</p>
-  </div>
+  </div>-->
 
 </template>
 
